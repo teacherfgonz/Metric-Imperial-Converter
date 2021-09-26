@@ -89,25 +89,25 @@ function ConvertHandler() {
     let result;
 
     if (unit == 'gal') {
-      result = 'gallon(s)'
+      result = 'gallons'
     }
 
     if (unit == 'L') {
-      result = 'litre(s)'
+      result = 'litres'
     }
 
     if (unit == 'mi') {
-      result = 'mile(s)'
+      result = 'miles'
     }
 
     if (unit == 'km') {
-      result = 'kilometer(s)'
+      result = 'kilometers'
     }
     if (unit == 'lbs') {
-      result = 'pound(s)'
+      result = 'pounds'
     }
     if (unit == 'kg') {
-      result = 'kilogram(s)'
+      result = 'kilograms'
     }
 
     return result;   
